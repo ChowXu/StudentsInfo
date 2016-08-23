@@ -20,6 +20,7 @@ public class StudentsAction extends SuperAction {
 
 	// query all students
 	public String query() {
+		
 
 		List<Students> list = sDAO.queryAllStudents();
 
